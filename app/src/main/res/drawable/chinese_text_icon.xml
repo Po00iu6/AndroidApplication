@@ -1,0 +1,19 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- 红棕色背景 -->
+    <path
+        android:pathData="M0,0 L100,0 L100,100 L0,100 Z"
+        android:fillColor="#8B4513" />
+    
+    <!-- 白色"文"字路径 -->
+    <path
+        android:pathData="M50,25 Q50,20 55,20 Q60,20 60,25 Q60,30 55,30 Q50,30 50,25 Z M30,40 L70,40 M25,40 C25,40 60,55 65,65 M60,40 C60,40 35,55 30,70"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>
+    

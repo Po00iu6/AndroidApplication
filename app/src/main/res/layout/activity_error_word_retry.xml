@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tv_error_title_retry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="错词再选"
+        android:textSize="24sp"
+        android:textStyle="normal"
+        android:gravity="center"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/tv_word_retry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Word"
+        android:textSize="32sp"
+        android:textStyle="normal"
+        android:gravity="center"
+        android:layout_marginBottom="30dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请选择正确的含义："
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/btn_option1_retry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="选项1"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:padding="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"
+        android:elevation="2dp"
+        android:radius="8dp" />
+
+    <Button
+        android:id="@+id/btn_option2_retry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="选项2"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:padding="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"
+        android:elevation="2dp"
+        android:radius="8dp" />
+
+    <Button
+        android:id="@+id/btn_option3_retry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="选项3"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:padding="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"
+        android:elevation="2dp"
+        android:radius="8dp" />
+
+    <Button
+        android:id="@+id/btn_option4_retry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="选项4"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:padding="15dp"
+        android:layout_marginBottom="30dp"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"
+        android:elevation="2dp"
+        android:radius="8dp" />
+
+    <Button
+        android:id="@+id/btn_reset_retry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="重置重试"
+        android:textSize="18sp"
+        android:padding="15dp"
+        android:background="@android:color/holo_orange_light"
+        android:textColor="@android:color/white"
+        android:visibility="gone" />
+
+    </LinearLayout>
+</ScrollView>

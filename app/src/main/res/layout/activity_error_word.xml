@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <!-- 错误标题 -->
+    <TextView
+        android:id="@+id/tv_error_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="答错了！"
+        android:textSize="28sp"
+        android:textColor="#FF5722"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dp"/>
+
+    <!-- 单词显示 -->
+    <TextView
+        android:id="@+id/tv_word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textColor="#333333"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:textAllCaps="false"/>
+
+    <!-- 单词释义 -->
+    <TextView
+        android:id="@+id/tv_definition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#666666"
+        android:paddingHorizontal="40dp"
+        android:textAlignment="center"
+        android:lineSpacingExtra="8dp"/>
+
+    <!-- 底部空间，用于将下一步按钮推到底部 -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <!-- 下一步按钮 -->
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="下一步"
+        android:textSize="18sp"
+        android:background="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="40dp"/>
+
+    </LinearLayout>
+</ScrollView>

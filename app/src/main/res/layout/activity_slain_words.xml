@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#F5F5F5">
+
+    <!-- 返回按钮和标题 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="← 返回首页"
+            android:background="#E0E0E0"
+            android:textColor="#333333"/>
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="已斩词汇列表"
+            android:textSize="20sp"
+            android:textColor="#333333"
+            android:gravity="center"
+            android:layout_marginStart="20dp"/>
+    </LinearLayout>
+
+    <!-- 内容容器，用于切换显示列表和空消息 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        
+        <!-- 已斩单词列表容器 -->
+        <LinearLayout
+            android:id="@+id/ll_words_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp" />
+
+        <!-- 空列表提示信息 -->
+        <TextView
+            android:id="@+id/tv_empty_message"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="暂无已斩词汇"
+            android:textSize="18sp"
+            android:textColor="#999999"
+            android:gravity="center"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+</LinearLayout>
