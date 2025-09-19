@@ -8,9 +8,12 @@
     <Button
         android:id="@+id/btn_back_simple"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:text="返回"
-        android:layout_gravity="start" />
+        android:layout_gravity="start"
+        android:background="@drawable/rounded_button_white"
+        android:textColor="#333333"
+        android:stateListAnimator="@null" />
 
     <TextView
         android:id="@+id/tv_word_simple"
@@ -35,9 +38,10 @@
             android:textSize="18sp"
             android:padding="16dp"
             android:layout_marginBottom="16dp"
-            android:background="@android:color/white"
+            android:background="@drawable/rounded_button_white"
             android:textColor="@android:color/black"
-            android:elevation="2dp" />
+            android:elevation="2dp"
+            android:stateListAnimator="@null" />
 
         <Button
             android:id="@+id/btn_option2_simple"
@@ -46,9 +50,10 @@
             android:textSize="18sp"
             android:padding="16dp"
             android:layout_marginBottom="16dp"
-            android:background="@android:color/white"
+            android:background="@drawable/rounded_button_white"
             android:textColor="@android:color/black"
-            android:elevation="2dp" />
+            android:elevation="2dp"
+            android:stateListAnimator="@null" />
 
         <Button
             android:id="@+id/btn_option3_simple"
@@ -57,9 +62,10 @@
             android:textSize="18sp"
             android:padding="16dp"
             android:layout_marginBottom="16dp"
-            android:background="@android:color/white"
+            android:background="@drawable/rounded_button_white"
             android:textColor="@android:color/black"
-            android:elevation="2dp" />
+            android:elevation="2dp"
+            android:stateListAnimator="@null" />
 
         <Button
             android:id="@+id/btn_option4_simple"
@@ -67,9 +73,10 @@
             android:layout_height="wrap_content"
             android:textSize="18sp"
             android:padding="16dp"
-            android:background="@android:color/white"
+            android:background="@drawable/rounded_button_white"
             android:textColor="@android:color/black"
-            android:elevation="2dp" />
+            android:elevation="2dp"
+            android:stateListAnimator="@null" />
 
     </LinearLayout>
 </LinearLayout>

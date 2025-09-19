@@ -47,10 +47,10 @@
         android:textStyle="normal"
         android:padding="15dp"
         android:layout_marginBottom="15dp"
-        android:background="@android:color/white"
+        android:background="@drawable/rounded_button_white"
         android:textColor="@android:color/black"
         android:elevation="2dp"
-        android:radius="8dp" />
+        android:stateListAnimator="@null" />
 
     <Button
         android:id="@+id/btn_option2_retry"
@@ -61,10 +61,10 @@
         android:textStyle="normal"
         android:padding="15dp"
         android:layout_marginBottom="15dp"
-        android:background="@android:color/white"
+        android:background="@drawable/rounded_button_white"
         android:textColor="@android:color/black"
         android:elevation="2dp"
-        android:radius="8dp" />
+        android:stateListAnimator="@null" />
 
     <Button
         android:id="@+id/btn_option3_retry"
@@ -75,10 +75,10 @@
         android:textStyle="normal"
         android:padding="15dp"
         android:layout_marginBottom="15dp"
-        android:background="@android:color/white"
+        android:background="@drawable/rounded_button_white"
         android:textColor="@android:color/black"
         android:elevation="2dp"
-        android:radius="8dp" />
+        android:stateListAnimator="@null" />
 
     <Button
         android:id="@+id/btn_option4_retry"
@@ -89,10 +89,10 @@
         android:textStyle="normal"
         android:padding="15dp"
         android:layout_marginBottom="30dp"
-        android:background="@android:color/white"
+        android:background="@drawable/rounded_button_white"
         android:textColor="@android:color/black"
         android:elevation="2dp"
-        android:radius="8dp" />
+        android:stateListAnimator="@null" />
 
     <Button
         android:id="@+id/btn_reset_retry"
@@ -101,8 +101,9 @@
         android:text="重置重试"
         android:textSize="18sp"
         android:padding="15dp"
-        android:background="@android:color/holo_orange_light"
+        android:background="@drawable/rounded_button_orange"
         android:textColor="@android:color/white"
+        android:stateListAnimator="@null"
         android:visibility="gone" />
 
     </LinearLayout>

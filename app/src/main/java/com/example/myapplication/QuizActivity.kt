@@ -445,6 +445,9 @@ class QuizActivity : AppCompatActivity() {
 
             button.text = spannableString
 
+            // 禁用当前点击的错误按钮，防止用户再次点击
+            button.isEnabled = false
+
             // 移除错误提示弹窗
 
             // 处理单词答错的情况

@@ -35,8 +35,9 @@
         android:text="开始复习"
         android:textSize="20sp"
         android:textColor="#FFFFFF"
-        android:backgroundTint="#4CAF50"
-        android:layout_marginBottom="16dp" />
+        android:background="@drawable/rounded_button_green"
+        android:layout_marginBottom="16dp"
+        android:stateListAnimator="@null" />
 
     <Button
         android:id="@+id/btn_back_to_home"
@@ -45,6 +46,7 @@
         android:text="返回主页"
         android:textSize="20sp"
         android:textColor="#FFFFFF"
-        android:backgroundTint="#607D8B" />
+        android:background="@drawable/rounded_button_grey"
+        android:stateListAnimator="@null" />
 
 </LinearLayout>

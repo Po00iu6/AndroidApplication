@@ -38,13 +38,14 @@
     <Button
         android:id="@+id/btn_remove"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="36dp"
         android:text="移除"
         android:textColor="#FFFFFF"
-        android:background="#FF5252"
+        android:background="@drawable/rounded_button_red"
         android:paddingHorizontal="16dp"
         android:paddingVertical="8dp"
         android:textSize="14sp"
-        android:layout_gravity="center_vertical" />
+        android:layout_gravity="center_vertical"
+        android:stateListAnimator="@null" />
 
 </LinearLayout>

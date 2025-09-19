@@ -57,10 +57,11 @@
         android:layout_height="60dp"
         android:text="下一步"
         android:textSize="18sp"
-        android:background="#4CAF50"
+        android:background="@drawable/rounded_button_green"
         android:textColor="#FFFFFF"
         android:layout_marginHorizontal="20dp"
-        android:layout_marginBottom="40dp"/>
+        android:layout_marginBottom="40dp"
+        android:stateListAnimator="@null"/>
 
     </LinearLayout>
 </ScrollView>
